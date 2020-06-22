@@ -25,7 +25,7 @@
 % 'nocolors' to disable colors in section headers
 \documentclass[]{friggeri-cv-a4}
 
-\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+%\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
 
 
 \begin{document}
@@ -49,13 +49,13 @@ portuguese
 english
 \section{programming}
 {\color{red} $\varheartsuit$} C\#
-javascript
+ruby
 bash
 \end{aside}
 
 %\section{intro}
 %I am a software engineer that loves to design, test, implement and deploy complex distributed system. 
-%Despite enjoying the design role as an architect, I also am passinate about coding as well as developing the tools and libraries that abstracts and  provide an easy way to use it.
+%Despite enjoying the design role as an architect, I also am passionate about coding as well as developing the tools and libraries that abstracts and  provide an easy way to use it.
 %Currently looking forward to work in a diverse cultural environemnt in order to make the preexisting cloud computing state of art obsolete.
 
 \section{experience}
@@ -66,10 +66,9 @@ bash
 {2017--Now}
 {SEGFY}
 {Belo Horizonte, Brasil}
-{\emph{Software Engineer | Architect} \\
+{\emph{Software Engineer | Lead Architect} \\
 
-Development of .NET library that parse and translates legacy MS-AccessSQL into modern MySQL syntax, allowing the company's legacy code to run on upgraded database without massive code intervention.
-Detailed achievements:
+Development of .NET library that parse and translates legacy MS-Access SQL into modern MySQL syntax, allowing the company's legacy code to run on upgraded database without massive code intervention.
 \begin{itemize}
     \item Reduction of 90\% in average query time.
     \item Reduction of massive concurrent access problems.
@@ -77,13 +76,15 @@ Detailed achievements:
 \end{itemize}}
 
 \entry
-{2013--NOW}
+{2014--2016}
 {INDÚSTRIA MINEIRA DE JOIAS}
 {Belo Horizonte, Brazil}
-{ Software development using .NET Framework for jewelry company.
+{\emph{Software Engineer} \\
+
+Software development using .NET Framework for jewelry company.
 \begin{itemize}
-    \item Improved the worse business case that used to take two weeks to two days by automating and simplifing the company workflow. 
-    \item Implemented bar code in reduced size tags using jewelry weight statistics for mapping.
+    \item Improved the worse business case that used to take two weeks to 
+two days by replacing the company legacy system. 
 \end{itemize}
 }
 
@@ -104,7 +105,7 @@ Detailed achievements:
 {New York, USA (offshore)}
 {Software development for fortune 500 company using agile methodology.
 \begin{itemize}
-    \item Implemented UI for Bloomingdale's checkout project using javascript YUI and JSP.
+    \item Implemented UI for Bloomingdale's checkout project using javascript, YUI and JSP.
 \end{itemize}
 }
 
@@ -112,12 +113,12 @@ Detailed achievements:
 {2010--2011}
 {COTAK}
 {Belo Horizonte, Brazil}
-{ Development of a distributed computation of insurance quotes. Acquired experience in  distributed web systems, software architecture and technology research. 
-Used C\# .NET and Amazon EC2 services. Had an opportunity to build an scheduler for a pair<algorithm, data> during runtime.
+{Development of a distributed simulation of insurance quotes. Acquired experience in distributed systems and complex systems architecture. 
+Had an opportunity to build a scheduler for parallel execution of given function using AWS EC2 and dotnet framework.
 %  Built an autonomic library for configuring and logging distributed applications, and library for scheduling the execution of pair<algorithm, data> dynamically.
 % Worked in development of a distributed computing cloud that automate UI web % interfaces, designed to feed automatic insurance quotes. Acquired experience in  distributed web systems, software architecture and technology research. Used C\# .NET and Amazon EC2 services. Had an opportunity to build an autonomic library for configure and log distributed applications, and a map reduce library for scheduling a set of pair<algorithm, data> dynamically.
 \begin{itemize}
-    \item Freed the customer machine by moving the execution of intensive cpu load from the customer machine to the cloud.
+    \item Freed the customer machine by moving the execution of intensive computation from the customer machine to the cloud.
 \end{itemize}
 }
 
@@ -134,20 +135,21 @@ Used C\# .NET and Amazon EC2 services. Had an opportunity to build an scheduler 
 {Dale Carnegie Training}
 
 \entry
+{2006}
+{Article publication {\normalfont Color image enhancement through 2D histogram equalization}}
+{Budapest, Hungary}
+
+\entry
 {2004--2010}
 {{\normalfont Bachelor of} Computer Science}
 {Federal University of Minas Gerais, Brazil}
 
-\entry
-{2006}
-{Article publication {\normalfont Color image enhancement through 2D histogram equalization}}
-{Budapest, Hungary}
 
 \end{entrylist}
 
 
 \section{interests}
 
-\textbf{professional:} software design, design patterns, distributed processing, automation, cloud, Copy on write filesystems. \textbf{personal:} piano, cooking
+\textbf{professional:} software design, design patterns, distributed processing, automation, cloud, copy on write filesystems. \textbf{personal:} classical piano, cooking.
 
 \end{document}
